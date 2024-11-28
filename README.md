@@ -20,10 +20,10 @@ Dự án này sử dụng bộ dữ liệu về khách hàng của một ngân h
 Để chạy dự án này, bạn cần cài đặt các thư viện cần thiết. Bạn có thể cài đặt các thư viện này thông qua `pip` bằng cách sử dụng file `requirements.txt`:
 
 1. **Clone repository**:
-git clone https://github.com/yourusername/customer-churn-prediction.git
-cd customer-churn-prediction
+- git clone [ https://github.com/yourusername/customer-churn-prediction.git](https://github.com/chouchoussyuet/Predictive-Analytics)
+- cd customer-churn-prediction
 
-2. **Cài đặt các thư viện yêu cầu**:
+3. **Cài đặt các thư viện yêu cầu**:
   pip install -r requirements.txt
 
 Các thư viện cần thiết: 
