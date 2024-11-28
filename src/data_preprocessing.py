@@ -27,6 +27,9 @@ def preprocess_data(data):
     # Ghép các cột đã mã hóa vào DataFrame gốc và loại bỏ cột gốc 'Geography'
     data = pd.concat([data.drop('Geography', axis=1), geography_df], axis=1)
     
+    #Drop unneeded columns
+    data.drop(columns=['RowNumber', 'CustomerId', 'Surname'], inplace=True)
+    
     x_var = data.columns[data.columns != 'Exited']
     y_var = ["Exited"]
     
@@ -38,3 +41,4 @@ def preprocess_data(data):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
     return X_train, X_test, y_train, y_test
+
