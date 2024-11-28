@@ -23,7 +23,7 @@ Dự án này sử dụng bộ dữ liệu về khách hàng của một ngân h
 - git clone [ https://github.com/yourusername/customer-churn-prediction.git](https://github.com/chouchoussyuet/Predictive-Analytics)
 - cd customer-churn-prediction
 
-3. **Cài đặt các thư viện yêu cầu**:
+2. **Cài đặt các thư viện yêu cầu**:
   pip install -r requirements.txt
 
 Các thư viện cần thiết: 
